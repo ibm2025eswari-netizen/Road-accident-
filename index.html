@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Pothole Alert</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <h1>Smart Pothole Alert System</h1>
+
+        <div id="status-indicator" class="status-ok">
+            Connection: Stable
+        </div>
+
+        <div id="alert-display" class="alert-safe">
+            Road Clear. Drive Safe.
+        </div>
+
+        <div class="log-area">
+            <h2>Recent Alerts Log</h2>
+            <ul id="alert-log">
+                <li>System ready. Awaiting sensor data...</li>
+            </ul>
+        </div>
+
+        <button onclick="triggerPotholeAlert()">Simulate Pothole Detection</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html
